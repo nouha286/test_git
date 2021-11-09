@@ -1,11 +1,18 @@
+
 1- On a creé un répertoire test_git à l'aide du commande mkdir dans notre compte GitHUB
+
 2- on copie l'URL de répertoire test_git 
+
 3-on clone à l'aide du commande git clone  https://github.com/nouha286/test_git.git
+
 4-on déplace sur le répertoire test_git et on vérifie la connexion à l'aide du commande git remote -v
+
 5-pour le résultat de cette commande , on note que la modification est pousser dans la deuxiéme ligne:
 origin  https://github.com/nouha286/test_git.git (fetch)
 origin  https://github.com/nouha286/test_git.git (push)
+
 6-Aprés avoir créer un dossier git_test , on crée un fichier README.md
+
 7- on utilise la commande git status pour afficher l'état:
 $ git status
 On branch main
@@ -18,20 +25,31 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 
 ---> on note que le dossier n'est pas publié on staging area
+
+
 8- on ajoute le fichier à versionner dans git en utilisant la commande gitt add README.md
+
 9- aprés vérifier le status on note que le fichier est publié dans la staging area 
 
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         new file:   README.md
 
+
 10-on commit notre fichier par le message "ajouter README.md" à l'aide de $git commit -m
+
 11-Nous avons vérifié l’état des fichiers avec git status. Nous avons noté que ce fichier et commiter par notre message.
+
 13-aprés avoir taper la commande git log , on note que son role est d’afficher les commits précédents
+
 14- on crée  un nouveau fichier hello_world.txt dans le répertoire test_git à l'aide de commande $touch hello_world.txt
+
 15-on vérifie le status à l'aide de $git status
+
 18- on ajoute README.md dans la staging area 
+
 20-nous  commitons les fichiers qui ont été ajouté avec git add. Ce commit contient un message ''message''
+
 22- on pousse avec la commande $git push origin main
 
 
